@@ -1,0 +1,8 @@
+f=open("k.txt","w")
+# fg="""wsedfgfdsadfdsadfdsasdfdsdfsdfdsdfsdfsadfasdasasasdASASDFGFGFGFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVS"""
+# f.write(fg)
+# f.close()
+
+con=['java\n','python\n','sql\n','c\n','c++\n','react\n']
+f.writelines(con)
+f.close()
